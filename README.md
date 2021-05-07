@@ -89,8 +89,8 @@ This schedule will be used to keep track of your progress throughout the week an
 |May 8| Continue components, GET, POST, PUT, DELETE | Incomplete
 |May 9| Finish Components / Test and review JS code | Incomplete
 |May 10| Start CSS styling | Incomplete
-|May 11| Finish CSS / MVP | Incomplete
-|May 12| MVP Due / Debugs| Incomplete
+|May 11| Finish CSS / MVP Checkover | Incomplete
+|May 12| MVP Due / Post-MVP / Debugs | Incomplete
 |May 14| Presentations | Incomplete
 
 
