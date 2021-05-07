@@ -67,7 +67,6 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 #### MVP 
 
 - Create homepage with routes to each perspective field
-- Get superhero data from the Marvel API and render to the page
 - Use CSS Grid to format the superhero data into organized cards
 - Use an interactive menu to add characters on a custom team using an Airtable
 - Use a form to add new superheros to an Airtable
@@ -75,6 +74,7 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 #### PostMVP  
 
+- Get superhero data from the Marvel API and render to the page
 - Add a like button for the superhero data cards
 - Add a search bar to search for a specific superhero
 - Post comments under favorite superheros
@@ -116,8 +116,16 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 ### Strengths:
 
+I have a really good understanding where my application is goign and the steps I need to take to get to the final product. This allows me to better plan my time to allow me to finish my project in a timely orderly manner. I have a good idea of which labs to refernce when completing the JS code.
+
 ### Weaknesses:
+
+On weakness I have is to properly get my data to render using JS React. I feel that I can overcome this just by trial along with help from my instructors and peers.
 
 ### Opportunities:
 
+This project will help me solidfy my understanding of JS React. I also am a very big comic fan and I wiill defienlty use this app to reference back to for info on my favorite superheros.
+
 ### Threats:
+
+The big threat I see is trying to debug my code. Debugging I definelty need to get better at. I also need to work on time management and need to stop distracting myself from my final project.
