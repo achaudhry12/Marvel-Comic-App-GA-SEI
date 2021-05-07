@@ -13,7 +13,7 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![image](https://user-images.githubusercontent.com/82814499/117479970-f644ea00-af2e-11eb-8ed7-f862b42c168c.png)
 
 
 ## Component Hierarchy
