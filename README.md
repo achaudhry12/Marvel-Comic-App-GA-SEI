@@ -17,8 +17,7 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
-
+![image](https://user-images.githubusercontent.com/82814499/117472065-80d51b80-af26-11eb-87ff-4b137ccdc191.png)
 
 ## API and Data Sample
 
