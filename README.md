@@ -20,8 +20,6 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 ## API and Data Sample
 
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This __must__ be properly formatted. An example is below:
-
 ```json
 {
     "records": [
@@ -78,8 +76,6 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |May 5-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
@@ -94,15 +90,21 @@ This schedule will be used to keep track of your progress throughout the week an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Proposal | H | 2hrs| 3.5hrs | hrs |
+| Setting up Airtable | H | 1hrs| hrs | hrs |
+| Make homepage and create routes | H | 1hrs| hrs | hrs |
+| Create API call (GET) for superhero database | H | 2hrs| hrs | hrs |
+| Create PUT & POST request for create team | H | 2hrs | hrs | hrs |
+| Create dynamic form for create superhero | H | 2hrs| hrs | hrs |
+| Create POST request for new superhero feed | H | 2hrs| hrs | hrs |
+| Work through beginner CSS | H | 3hrs| hrs | hrs |
+| Work through dynamic CSS | H | 3hrs| hrs | hrs |
+| Work through advanced CSS | H | 3hrs| hrs | hrs |
+| Review MVP | H | 2hrs| hrs | hrs |
+| Post MVP | H | 3hrs| hrs | hrs |
+| Total | H | 26hrs| hrs | hrs |
 
 ## SWOT Analysis
 
