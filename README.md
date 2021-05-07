@@ -1,19 +1,24 @@
 # Project Overview
 
+
 ## Project Name
 
-The name of your project.
+Avengers Assemble - Marvel Comics Superhero Database
+
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and/or functionality.
+Avengers Assemble is a React build that uses an API from Marvel Comics and an Airtable to allow for the sorting of characters. The user is able to navigate from a homepage to the database, to a seperate page where they can create their own Avengers team, and a section where they can create their own superhero and add it to the team. The user will be able to search through a database of superheros in which they can access more information about the superhero (i.e. thier superpowers, origin, short description and the comics they are in). The user will be allowed to select from the database to create thier own team in an interactive menu. The user will be able to complete a form and make their own custom superhero. The user will be allowed to delete any created superheros and delete any created teams.
+
 
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
+
 ## Component Hierarchy
 Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+
 
 ## API and Data Sample
 
@@ -56,20 +61,22 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MVP and PostMVP.  Carefully decide what is placed into your MVP, as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Create homepage with routes to each perspective field
+- Get superhero data from the Marvel API and render to the page
+- Use CSS Grid to format the superhero data into organized cards
+- Use an interactive menu to add characters on a custom team using an Airtable
+- Use a form to add new superheros to an Airtable
+- Delete custom characters and characters from the custom team
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add a like button for the superhero data cards
+- Add a search bar to search for a specific superhero
+- Post comments under favorite superheros
+
 
 ## Project Schedule
 
@@ -77,13 +84,15 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|May 5-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|May 7| Project Approval / Start Componets | Incomplete
+|May 8| Continue components, GET, POST, PUT, DELETE | Incomplete
+|May 9| Finish Components / Test and review JS code | Incomplete
+|May 10| Start CSS styling | Incomplete
+|May 11| Finish CSS / MVP | Incomplete
+|May 12| MVP Due / Debugs| Incomplete
+|May 14| Presentations | Incomplete
+
 
 ## Timeframes
 
