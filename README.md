@@ -20,7 +20,46 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 ## API and Data Sample
 
-
+``` javascript
+{
+    "records": [
+        {
+            "id": "recMF9Y0P0GaHshxu",
+            "fields": {
+                "Origin": "Long Island, NY",
+                "Image": "https://lumiere-a.akamaihd.net/v1/images/avengers-characterpose-ironman_30193360.png?region=0%2C0%2C138%2C280",
+                "Powers": "Wears modular arc reactor-powered Iron Man armor, granting superhuman strength & durability, the ability to fly & project Repulsor blasts",
+                "Superhero": "Iron-Man",
+                "Description": "When billionaire industrialist Tony Stark dons his sophisticated steel-mesh armor, he becomes a living high-tech weapon - the world's greatest fightin..."
+            },
+            "createdTime": "2021-05-07T18:28:55.000Z"
+        },
+        {
+            "id": "recS32QVBtvUvyIhk",
+            "fields": {
+                "Origin": "Asgard",
+                "Image": "https://lumiere-a.akamaihd.net/v1/images/avengers-characterpose-thor_6f50eecc.png?region=0%2C0%2C164%2C280",
+                "Powers": "Superhuman strength, speed, endurance & resistance to injury.",
+                "Superhero": "Thor",
+                "Description": "Thor's strength, endurance, and quest for battle are far greater than his Asgardian brethren. The mighty Thor wields an enchanted Uru hammer, Mjolnir,..."
+            },
+            "createdTime": "2021-05-07T18:28:55.000Z"
+        },
+        {
+            "id": "recyh3IVU0o5S3UtO",
+            "fields": {
+                "Origin": "Brooklyn, NY",
+                "Image": "https://lumiere-a.akamaihd.net/v1/images/avengers-characterpose-captainamerica_4f97efbc.png?region=0%2C0%2C132%2C280",
+                "Powers": "Peak physical condition, with heightened strength, endurance & agility",
+                "Superhero": "Captain America",
+                "Description": "During WWII, the patriotic Steve Rogers was offered a place in the military's top operation: Rebirth. Injected with an experimental super-serum, Roger..."
+            },
+            "createdTime": "2021-05-07T18:28:55.000Z"
+        }
+    ],
+    "offset": "recyh3IVU0o5S3UtO"
+}
+```
 
 ### MVP/PostMVP
 
