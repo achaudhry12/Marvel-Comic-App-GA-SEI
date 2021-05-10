@@ -1,5 +1,6 @@
 function Superhero(props) {
-  const { alias, image, real_name, origin } = props.destination.fields;
+
+  const { alias, image, real_name, origin } = props.superhero.fields;
 
   return (
     <div id="superhero-card">

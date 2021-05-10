@@ -22,7 +22,7 @@ function SuperheroDatabase() {
       <main>
           {superheros.map((superhero) => (
             <Superhero
-              superheros={superhero}
+              superhero={superhero}
               setToggleFetch={setToggleFetch}
             />
           ))}
