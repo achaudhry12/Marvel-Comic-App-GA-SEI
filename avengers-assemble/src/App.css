@@ -78,3 +78,40 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+#superhero-card {
+  border: solid 3px black;
+  padding: 25px 0px;
+}
+
+#superhero-database-more-info {
+  padding: 10px;
+}
+
+#make-your-own {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border: solid 1px black;
+  margin: 0px 50px;
+  padding: 0px 0px 30px 0px;
+}
+
+#make-your-own-title {
+  font-size: 25px;
+}
+
+#make-your-own-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#make-your-own-button {
+  width: 200px;
+  height: 50px;
+  margin: 25px 50px 0px;
+  font-size: 15px;
+  font-weight: bold;
+}

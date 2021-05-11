@@ -45,8 +45,8 @@ function Form(props) {
   };
 
   return (
-    <div>
-      <h2 id="make-your-own-title">Make Your Own Superhero!</h2>
+    <div id="make-your-own">
+      <p id="make-your-own-title">Make Your Own Superhero!</p>
       <form id="make-your-own-form" onSubmit={handleSubmit}>
         <label htmlFor="Alias">Alias: </label>
         <input
@@ -83,7 +83,7 @@ function Form(props) {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <button type="submit">Create</button>
+        <button id="make-your-own-button" type="submit">Create</button>
       </form>
     </div>
   );
