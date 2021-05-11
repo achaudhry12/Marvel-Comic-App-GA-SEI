@@ -19,7 +19,7 @@ function SuperheroDatabase() {
   return (
     <div>
       <h1 id="superhero-database-title">Superhero Database</h1>
-      <main>
+      <main id="superhero-database-container">
           {superheros.map((superhero) => (
             <Superhero
               superhero={superhero}

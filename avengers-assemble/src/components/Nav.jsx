@@ -5,16 +5,16 @@ function Nav() {
   return (
     <nav>
       <Link to="/">
-        <button>Homepage</button>
+        <button className="nav-button">Homepage</button>
       </Link>
       <Link to="/superhero-database">
-        <button>Superhero Database</button>
+        <button className="nav-button">Superhero Database</button>
       </Link>
       <Link to="/create-team">
-        <button>Create Team</button>
+        <button className="nav-button">Create Team</button>
       </Link>
       <Link to="/create-superhero">
-        <button>Create Superhero</button>
+        <button className="nav-button">Create Superhero</button>
       </Link>
     </nav>
   );

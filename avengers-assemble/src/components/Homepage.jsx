@@ -5,21 +5,15 @@ function Homepage() {
     <div>
       <h1 id="home-title">Avengers Assemble - MARVEL Superhero Database</h1>
       <div id="home-container">
-        <Link to="/superhero-database">
-          <div>
-            <h2 className="home-subtitle">Superhero Database</h2>
-          </div>
-        </Link>
-        <Link to="/create-team">
-          <div>
-            <h2 className="home-subtitle">Create Team</h2>
-          </div>
-        </Link>
-        <Link to="/create-superhero">
-          <div>
-            <h2 className="home-subtitle">Create Superhero</h2>
-          </div>
-        </Link>
+        <div id="home-item1">
+          <Link to="/superhero-database">Superhero Database</Link>
+        </div>
+        <div id="home-item2">
+          <Link to="/create-team">Create Team</Link>
+        </div>
+        <div id="home-item3">
+          <Link to="/create-superhero">Create Superhero</Link>
+        </div>
       </div>
     </div>
   );
