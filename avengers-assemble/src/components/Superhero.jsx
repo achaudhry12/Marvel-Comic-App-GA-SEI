@@ -17,7 +17,7 @@ function Superhero(props) {
       <h4>{real_name}</h4>
       <h4>From: {origin}</h4>
       <button id="superhero-database-more-info">More Info</button>
-      {/* <button onClick={deleteSuperhero}>Remove</button> */}
+      <button id="superhero-database-delete" onClick={deleteSuperhero}>Remove</button>
     </div>
   );
 }

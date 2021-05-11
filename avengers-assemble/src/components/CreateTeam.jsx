@@ -4,7 +4,9 @@ function CreateTeam() {
   return (
     <div>
       <h1 id="create-team-title">Create Team</h1>
-      <CreateTeamDatabase />
+      <div id="create-team-database">
+        <CreateTeamDatabase />
+      </div>
     </div>
   );
 }

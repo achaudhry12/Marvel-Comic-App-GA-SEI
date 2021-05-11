@@ -1,9 +1,6 @@
-.App {
-  text-align: center;
-}
-
 nav {
   background-color: #ed1d24;
+  text-align: center;
 }
 
 .nav-button {
@@ -21,13 +18,14 @@ nav {
 }
 
 #home-title {
-
+  text-align: center;
 }
 
 #home-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  text-align: center;
 }
 
 #home-item1 {
@@ -47,11 +45,13 @@ nav {
 
 #home-item2 {
   margin-left: 100px;
+  text-align: center;
   background-image: url("https://terrigen-cdn-dev.marvel.com/content/prod/1x/marvel_avengers_08-1920x1080.jpg");
 }
 
 #home-item3 {
   margin-right: 100px;
+  text-align: center;
   background-image: url("https://miro.medium.com/max/640/1*QplTh3SL2Tvv6-kFHdik_Q.jpeg");
 }
 
@@ -74,6 +74,10 @@ nav {
   background: lightgray;
 }
 
+#superhero-database-title {
+  text-align: center;
+}
+
 #superhero-database-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -82,10 +86,32 @@ nav {
 #superhero-card {
   border: solid 3px black;
   padding: 25px 0px;
+  text-align: center;
 }
 
-#superhero-database-more-info {
+#superhero-database-more-info,
+#superhero-database-delete,
+#create-team-add {
   padding: 10px;
+  margin: 5px;
+}
+
+#create-team-title {
+  text-align: center;
+}
+
+#create-team-database {
+  width: 50%;
+}
+
+#create-team-superhero-card {
+  border: solid 3px black;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+#create-superhero-title {
+  text-align: center;
 }
 
 #make-your-own {
