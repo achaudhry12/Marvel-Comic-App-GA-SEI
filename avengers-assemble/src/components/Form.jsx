@@ -45,44 +45,47 @@ function Form(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="Alias">Alias: </label>
-      <input
-        type="text"
-        id="alias"
-        value={alias}
-        onChange={(e) => setAlias(e.target.value)}
-      />
-      <label htmlFor="real_name">Real Name: </label>
-      <input
-        type="text"
-        id="real_name"
-        value={real_name}
-        onChange={(e) => setReal_name(e.target.value)}
-      />
-      <label htmlFor="origin">Origin: </label>
-      <input
-        type="text"
-        id="origin"
-        value={origin}
-        onChange={(e) => setOrigin(e.target.value)}
-      />
-      <label htmlFor="powers">Powers: </label>
-      <textarea
-        type="text"
-        id="powers"
-        value={powers}
-        onChange={(e) => setPowers(e.target.value)}
-      />
-      <label htmlFor="description">Description: </label>
-      <textarea
-        type="text"
-        id="description"
-        value={description}
-        onChange={(e) => setDescription(e.target.value)}
-      />
-      <button type="submit">Create</button>
-    </form>
+    <div>
+      <h2 id="make-your-own-title">Make Your Own Superhero!</h2>
+      <form id="make-your-own-form" onSubmit={handleSubmit}>
+        <label htmlFor="Alias">Alias: </label>
+        <input
+          type="text"
+          id="alias"
+          value={alias}
+          onChange={(e) => setAlias(e.target.value)}
+        />
+        <label htmlFor="real_name">Real Name: </label>
+        <input
+          type="text"
+          id="real_name"
+          value={real_name}
+          onChange={(e) => setReal_name(e.target.value)}
+        />
+        <label htmlFor="origin">Origin: </label>
+        <input
+          type="text"
+          id="origin"
+          value={origin}
+          onChange={(e) => setOrigin(e.target.value)}
+        />
+        <label htmlFor="powers">Powers: </label>
+        <textarea
+          type="text"
+          id="powers"
+          value={powers}
+          onChange={(e) => setPowers(e.target.value)}
+        />
+        <label htmlFor="description">Description: </label>
+        <textarea
+          type="text"
+          id="description"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+        />
+        <button type="submit">Create</button>
+      </form>
+    </div>
   );
 }
 
