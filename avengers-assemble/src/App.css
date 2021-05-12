@@ -4,12 +4,13 @@ nav {
 }
 
 .nav-button {
-  width: 200px;
-  height: 50px;
-  font-size: 15px;
+  width: 240px;
+  height: 60px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 25px 35px;
+  margin: 30px;
   transition: all 0.2s ease-in-out;
+  border: solid 3px black;
 }
 
 .nav-button:hover {
@@ -80,20 +81,92 @@ nav {
 
 #superhero-database-container {
   display: grid;
+  position: relative;
+  margin: 15px;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
 }
 
 #superhero-card {
-  border: solid 3px black;
+  display: grid;
+  grid-template-columns: repeat(8, .25fr) repeat(2, .8fr) .25fr;
+  grid-template-rows: .5fr  repeat(4, .2fr);
+  border: solid 5px black;
   padding: 25px 0px;
+  text-align: left;
+  background-color: beige;
+}
+
+#superhero-card-image {
+  justify-self: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.reframe-superhero-image {
+  grid-column: 2 / span 6;
+  grid-row: 1 / span 4;
+  justify-self: center;
+  height: 175px;
+  width: 175px;
+  overflow: hidden;
+  border: solid 1px grey;
+}
+
+#superhero-card-alias {
+  grid-column: 9 / span 2;
+  grid-row: 1 / span 2;
+  font-size: 30px;
+  font-weight: bolder;
   text-align: center;
+  margin: 0px;
+}
+
+#superhero-card-real-name {
+  grid-column: 9 / span 2;
+  grid-row: 3;
+  margin: 0px;
+  text-align: center;
+}
+
+#superhero-card-origin {
+  grid-column: 9 / span 2;
+  grid-row: 4;
+  margin: 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+#superhero-card-more-info {
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 2;
+}
+
+#superhero-database-more-info {
+
+}
+
+#superhero-database-delete {
+  grid-column: 9 / span 2;
+  grid-row: 6 / span 2;
+  background-color: red;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px black;
+}
+
+#superhero-database-delete:hover {
+  background-color: black;
 }
 
 #superhero-database-more-info,
 #superhero-database-delete,
 #create-team-add {
+  height: 50px;
+  width: 150px;
   padding: 10px;
   margin: 5px;
+  font-size: 15px;
 }
 
 #create-team-title {
