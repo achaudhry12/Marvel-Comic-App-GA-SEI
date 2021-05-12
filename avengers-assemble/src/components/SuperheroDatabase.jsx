@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
 import Superhero from "./Superhero";
+import SuperheroFullInfo from "./SuperheroFullInfo"
+import { Route } from "react-router-dom";
 
 
 function SuperheroDatabase() {
@@ -26,7 +28,10 @@ function SuperheroDatabase() {
               setToggleFetch={setToggleFetch}
             />
           ))}
-        </main>
+      </main>
+      <Route path="/superhero-full-info">
+        <SuperheroFullInfo  />
+      </Route>
     </div>
   );
 }
