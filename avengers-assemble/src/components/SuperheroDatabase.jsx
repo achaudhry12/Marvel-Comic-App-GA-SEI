@@ -6,18 +6,7 @@ import SuperheroFullInfo from "./SuperheroFullInfo"
 import { Route } from "react-router-dom";
 
 
-function SuperheroDatabase() {
-  const [superheros, setSuperheros] = useState([]);
-  const [toggleFetch, setToggleFetch] = useState(false);
-
-  useEffect(() => {
-    const fetchSuperheros = async () => {
-      const resp = await axios.get(baseURL, config);
-      setSuperheros(resp.data.records);
-    };
-    fetchSuperheros();
-  }, [toggleFetch]);
-
+function SuperheroDatabase({superheros, setToggleFetch}) {
   return (
     <div>
       <h1 id="superhero-database-title">Superhero Database</h1>
@@ -30,7 +19,7 @@ function SuperheroDatabase() {
           ))}
       </main>
       <Route path="/superhero-full-info">
-        <SuperheroFullInfo  />
+        <SuperheroFullInfo superheros={superheros} />
       </Route>
     </div>
   );

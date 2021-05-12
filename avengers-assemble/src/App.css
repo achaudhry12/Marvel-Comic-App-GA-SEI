@@ -94,7 +94,7 @@ nav {
   border: solid 5px black;
   padding: 25px 0px;
   text-align: left;
-  background-color: beige;
+  background-color: lightgoldenrodyellow;
 }
 
 #superhero-card-image {
@@ -111,6 +111,7 @@ nav {
   width: 175px;
   overflow: hidden;
   border: solid 1px grey;
+  background-color: white;
 }
 
 #superhero-card-alias {
@@ -143,7 +144,10 @@ nav {
 }
 
 #superhero-database-more-info {
-
+  background-color: #162ca2;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px black;
 }
 
 #superhero-database-delete {
@@ -155,7 +159,8 @@ nav {
   border: solid 3px black;
 }
 
-#superhero-database-delete:hover {
+#superhero-database-delete:hover,
+#superhero-database-more-info:hover {
   background-color: black;
 }
 

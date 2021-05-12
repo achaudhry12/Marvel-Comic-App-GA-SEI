@@ -1,10 +1,10 @@
 import Form from "./Form"
 
-function CreateSuperhero() {
+function CreateSuperhero({setToggleFetch}) {
   return (
     <div>
       <h1 id="create-superhero-title">Create Superhero</h1>
-      <Form />
+      <Form setToggleFetch={setToggleFetch}/>
     </div>
   );
 }
