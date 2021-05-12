@@ -86,11 +86,11 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 |  Day | Deliverable | Status
 |---|---| ---|
 |May 5-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|May 7| Project Approval / Start Componets | Incomplete
-|May 8| Continue components, GET, POST, PUT, DELETE | Incomplete
-|May 9| Finish Components / Test and review JS code | Incomplete
-|May 10| Start CSS styling | Incomplete
-|May 11| Finish CSS / MVP Checkover | Incomplete
+|May 7| Project Approval / Start Componets | Complete
+|May 8| Continue components, GET, POST, PUT, DELETE | Complete
+|May 9| Finish Components / Test and review JS code | Complete
+|May 10| Start CSS styling | Complete
+|May 11| Finish CSS / MVP Checkover | Complete
 |May 12| MVP Due / Post-MVP / Debugs | Incomplete
 |May 14| Presentations | Incomplete
 
@@ -100,16 +100,16 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Proposal | H | 2hrs| 3.5hrs | hrs |
-| Setting up Airtable | H | 1hrs| hrs | hrs |
-| Make homepage and create routes | H | 1hrs| hrs | hrs |
-| Create API call (GET) for superhero database | H | 2hrs| hrs | hrs |
-| Create PUT & POST request for create team | H | 2hrs | hrs | hrs |
-| Create dynamic form for create superhero | H | 2hrs| hrs | hrs |
-| Create POST request for new superhero feed | H | 2hrs| hrs | hrs |
-| Work through beginner CSS | H | 3hrs| hrs | hrs |
-| Work through dynamic CSS | H | 3hrs| hrs | hrs |
+| Setting up Airtable | H | 1hrs| 2hrs | 2.5hrs |
+| Make homepage and create routes | H | 1hrs| .5hrs | .5hrs |
+| Create API call (GET) for superhero database | H | 2hrs| 1hrs | 1hrs |
+| Create PUT & POST request for create superhero | H | 2hrs | 1hrs | 1hrs |
+| Create dynamic form for create superhero | H | 2hrs| 2hrs | 2hrs |
+| Create DELTE request for new superhero cards | H | 2hrs| 1hrs | 1hrs |
+| Work through beginner CSS | H | 3hrs| 2hrs | 2hrs |
+| Work through dynamic CSS | H | 3hrs| 1hrs | 1hrs |
 | Work through advanced CSS | H | 3hrs| hrs | hrs |
-| Review MVP | H | 2hrs| hrs | hrs |
+| Review MVP | H | 2hrs| 1hrs | 1hrs |
 | Post MVP | H | 3hrs| hrs | hrs |
 | Total | H | 26hrs| hrs | hrs |
 
