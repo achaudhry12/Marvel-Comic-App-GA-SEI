@@ -68,16 +68,16 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 
 - Create homepage with routes to each perspective field
 - Use CSS Grid to format the superhero data from Airtable dynamically into organized cards in "Superhero Database" (GET request)
-- Use an interactive button to get "More Info" on each superhero
 - Use a form to "Create" new superheros to an Airtable (POST & PUT request)
 - Use a delete button to "Remove" custom created superhero (DELETE request)
 
 #### PostMVP  
 
-- Add create team tab in which user can add superheros to a custom team
-- Add a like button for the superhero data cards
-- Add a search bar to search for a specific superhero
-- Post comments under favorite superheros
+- Use an interactive button to get "More Info" on each superhero
+- Add "Create Team" tab in which user can add superheros to a custom team
+- Add a "Like" button for the superhero data cards
+- Add a "Search" bar to search for a specific superhero
+- Post "Comments" under favorite superheros
 - Get superhero data from the Marvel API and render to the page
 
 
