@@ -17,7 +17,7 @@ function Superhero(props) {
       <p id="superhero-card-alias">{alias}</p>
       <p id="superhero-card-real-name">{real_name}</p>
       <p id="superhero-card-origin">{origin}</p>
-      <Link id="superhero-card-more-info" to="/superhero-full-info">
+      <Link id="superhero-card-more-info" to={`/superhero-full-info/${props.superhero.id}`}>
         <button id="superhero-database-more-info">More Info</button>
       </Link>
       <button id="superhero-database-delete" onClick={deleteSuperhero}>

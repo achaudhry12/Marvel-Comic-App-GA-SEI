@@ -7,6 +7,7 @@ import Homepage from "./components/Homepage";
 import SuperheroDatabase from "./components/SuperheroDatabase";
 import CreateTeam from "./components/CreateTeam";
 import CreateSuperhero from "./components/CreateSuperhero";
+import SuperheroFullInfo from "./components/SuperheroFullInfo";
 import "./App.css";
 
 function App() {
@@ -28,13 +29,16 @@ function App() {
         <Homepage />
       </Route>
       <Route path="/superhero-database">
-        <SuperheroDatabase superheros={superheros} setToggleFetch={setToggleFetch}/>
+        <SuperheroDatabase superheros={superheros} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/create-team">
         <CreateTeam />
       </Route>
       <Route path="/create-superhero">
         <CreateSuperhero setToggleFetch={setToggleFetch} />
+      </Route>
+      <Route path="/superhero-full-info/:id">
+        <SuperheroFullInfo superheros={superheros} />
       </Route>
     </div>
   );

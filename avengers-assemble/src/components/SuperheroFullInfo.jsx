@@ -1,6 +1,14 @@
-function SuperheroFullInfo(props) {
+import { useParams } from "react-router-dom";
 
-  const { alias, image, origin, powers, description } = props.superheros.fields;
+function SuperheroFullInfo({ superheros }) {
+  
+  const {id} = useParams();
+
+  const hero = superheros.find((hero) => {
+    return hero.id === id
+  });
+
+  const { alias, image, origin, powers, description } = hero.fields
 
   return (
     <div id="create-team-superhero-card">
