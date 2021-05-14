@@ -107,10 +107,10 @@ Avengers Assemble is a React build that uses an API from Marvel Comics and an Ai
 | Create DELTE request for new superhero cards | H | 2hrs| 1hrs | 1hrs |
 | Work through beginner CSS | H | 3hrs| 2hrs | 2hrs |
 | Work through dynamic CSS | H | 3hrs| 1hrs | 1hrs |
-| Work through advanced CSS | H | 3hrs| 3hrs | 3hrs |
+| Work through advanced CSS | H | 3hrs| 5hrs | 5hrs |
 | Review MVP | H | 2hrs| 1hrs | 1hrs |
 | Post MVP | H | 3hrs| 5hrs | 5hrs |
-| Total | H | 26hrs| 28hrs | 28hrs |
+| Total | H | 26hrs| 25hrs | 25hrs |
 
 ## SWOT Analysis
 
