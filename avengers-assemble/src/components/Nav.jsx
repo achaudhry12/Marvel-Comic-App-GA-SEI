@@ -10,9 +10,9 @@ function Nav() {
       <Link to="/superhero-database">
         <button className="nav-button">Superhero Database</button>
       </Link>
-      <Link to="/create-team">
+      {/* <Link to="/create-team">
         <button className="nav-button">Create Team</button>
-      </Link>
+      </Link> */}
       <Link to="/create-superhero">
         <button className="nav-button">Create Superhero</button>
       </Link>

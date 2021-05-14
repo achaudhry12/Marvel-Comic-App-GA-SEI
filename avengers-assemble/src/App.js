@@ -35,9 +35,10 @@ function App() {
           setToggleFetch={setToggleFetch}
         />
       </Route>
-      <Route path="/create-team">
-        <CreateTeam />
-      </Route>
+      {/* <Route path="/create-team">
+        <CreateTeam superheros={superheros}
+          setToggleFetch={setToggleFetch}/>
+      </Route> */}
       <Route path="/create-superhero">
         <CreateSuperhero setToggleFetch={setToggleFetch} />
       </Route>

@@ -9,7 +9,8 @@ function Homepage() {
           <Link to="/superhero-database">Superhero Database</Link>
         </div>
         <div id="home-item2">
-          <Link to="/create-team">Create Team</Link>
+          <a>Create Team</a>
+          {/* <Link to="/create-team">Create Team</Link> */}
         </div>
         <div id="home-item3">
           <Link to="/create-superhero">Create Superhero</Link>
