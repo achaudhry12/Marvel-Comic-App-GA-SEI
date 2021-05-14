@@ -13,11 +13,16 @@ function Superhero(props) {
 
   return (
     <div id="superhero-card">
-      <div className="reframe-superhero-image"><img src={image} alt="Superhero" id="superhero-card-image"></img></div>
+      <div className="reframe-superhero-image">
+        <img src={image} alt="Superhero" id="superhero-card-image"></img>
+      </div>
       <p id="superhero-card-alias">{alias}</p>
       <p id="superhero-card-real-name">{real_name}</p>
       <p id="superhero-card-origin">{origin}</p>
-      <Link id="superhero-card-more-info" to={`/superhero-full-info/${props.superhero.id}`}>
+      <Link
+        id="superhero-card-more-info"
+        to={`/superhero-full-info/${props.superhero.id}`}
+      >
         <button id="superhero-database-more-info">More Info</button>
       </Link>
       <button id="superhero-database-delete" onClick={deleteSuperhero}>

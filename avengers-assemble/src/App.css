@@ -15,7 +15,7 @@ nav {
   height: 60px;
   font-size: 18px;
   font-weight: bold;
-  margin: 40px 30px;
+  margin: 40px 25px;
   background-color: lightyellow;
   transition: all 0.25s ease-in-out;
   border: solid 3px black;
@@ -150,6 +150,7 @@ nav {
   justify-self: center;
   height: 175px;
   width: 175px;
+  margin: 0 10px 0;
   overflow: hidden;
   border: solid 3px #273444;
   background-color: white;
@@ -197,15 +198,6 @@ nav {
   justify-self: center;
 }
 
-#superhero-database-more-info,
-#superhero-database-delete {
-  background-color: #273444;
-  font-weight: bolder;
-  color: white;
-  border: solid 3px #273444;
-  transition: all 0.25s ease-in-out;
-}
-
 #superhero-database-delete:hover{
   background-color: #FF4949;
 }
@@ -216,7 +208,13 @@ nav {
 
 #superhero-database-more-info,
 #superhero-database-delete,
-#create-team-add {
+#create-team-add,
+#make-your-own-button {
+  background-color: #273444;
+  font-weight: bolder;
+  color: white;
+  border: solid 3px #273444;
+  transition: all 0.25s ease-in-out;
   height: 50px;
   width: 150px;
   padding: 10px;
@@ -270,9 +268,28 @@ nav {
 }
 
 #create-team-superhero-card {
-  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 5px black;
+  box-shadow: -5px 5px 10px black;
   padding: 25px 0px;
   text-align: center;
+  background-color: lightyellow;
+}
+
+#create-team-alias {
+  font-weight: bold;
+}
+
+#create-team-add:hover,
+#make-your-own-button:hover {
+  background-color: #13CE66;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: row;
 }
 
 #make-your-own {
@@ -280,13 +297,16 @@ nav {
   flex-direction: column;
   align-items: center;
   width: 500px;
-  border: solid 1px black;
-  margin: 0px 50px;
+  margin: 50px 100px 70px;
   padding: 0px 0px 30px 0px;
+  background-color: lightyellow;
+  border: solid 5px black;
 }
 
 #make-your-own-title {
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0 0 0;
 }
 
 #make-your-own-form {
@@ -295,12 +315,32 @@ nav {
   width: 300px;
 }
 
-#make-your-own-button {
-  width: 200px;
+#form-alias,
+#form-image,
+#form-real-name,
+#form-origin,
+#form-powers,
+#form-description {
+  height: 25px;
+  width: 300px;
+  margin: 10px 0 5px 0;
+}
+
+#form-powers {
   height: 50px;
-  margin: 25px 50px 0px;
-  font-size: 15px;
-  font-weight: bold;
+}
+
+#form-description {
+  height: 100px;
+}
+
+#make-your-own-button {
+  align-self: center;
+  margin: 30px 0 5px 0;
+}
+
+#superhero-card-div {
+  margin-top: 20%;
 }
 
 #app-footer {
