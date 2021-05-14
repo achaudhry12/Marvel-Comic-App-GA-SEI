@@ -8,6 +8,7 @@ import SuperheroDatabase from "./components/SuperheroDatabase";
 import CreateTeam from "./components/CreateTeam";
 import CreateSuperhero from "./components/CreateSuperhero";
 import SuperheroFullInfo from "./components/SuperheroFullInfo";
+import SuperheroDatabaseFull from "./components/SuperheroDatabaseFull";
 import "./App.css";
 
 function App() {
@@ -29,7 +30,10 @@ function App() {
         <Homepage />
       </Route>
       <Route path="/superhero-database">
-        <SuperheroDatabase superheros={superheros} setToggleFetch={setToggleFetch} />
+        <SuperheroDatabase
+          superheros={superheros}
+          setToggleFetch={setToggleFetch}
+        />
       </Route>
       <Route path="/create-team">
         <CreateTeam />
@@ -40,6 +44,24 @@ function App() {
       <Route path="/superhero-full-info/:id">
         <SuperheroFullInfo superheros={superheros} />
       </Route>
+      <Route path="/superhero-database-full">
+        <SuperheroDatabaseFull
+          superheros={superheros}
+          setToggleFetch={setToggleFetch}
+        />
+      </Route>
+      <footer>
+        <div id="app-footer">
+          <p>Project 2: GA SEI Loon</p>
+          <p>|</p>
+          <p>Made by Anss Chaudhry</p>
+          <p>|</p>
+          <p>
+            Data Retrieved from:{" "}
+            <a href="https://www.marvelhq.com/characters">marvelhq.com</a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

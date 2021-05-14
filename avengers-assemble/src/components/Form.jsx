@@ -43,7 +43,7 @@ function Form(props) {
       await axios.post(baseURL, { fields: newSuperhero }, config);
     }
     props.setToggleFetch((curr) => !curr);
-    history.push("/superhero-database");
+    history.push("/superhero-database-full");
   };
 
   return (
