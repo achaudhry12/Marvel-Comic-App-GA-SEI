@@ -1,6 +1,6 @@
 .App {
-  font-family: 'Maven Pro', sans-serif;
-  background-color: #8492A6;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #8492a6;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav {
 }
 
 .nav-button:hover {
-  background-color: #009EEB;
+  background-color: #009eeb;
   color: white;
 }
 
@@ -129,8 +129,8 @@ nav {
 
 #superhero-card {
   display: grid;
-  grid-template-columns: repeat(8, .25fr) repeat(2, .8fr) .25fr;
-  grid-template-rows: .5fr  repeat(4, .2fr);
+  grid-template-columns: repeat(8, 0.25fr) repeat(2, 0.8fr) 0.25fr;
+  grid-template-rows: 0.5fr repeat(4, 0.2fr);
   border: solid 5px black;
   box-shadow: -5px 5px 10px black;
   padding: 25px 0px;
@@ -187,23 +187,23 @@ nav {
 }
 
 #superhero-database-more-info {
-  background-color: #009EEB;
+  background-color: #009eeb;
   font-weight: bolder;
 }
 
 #superhero-database-delete {
   grid-column: 9 / span 2;
   grid-row: 6 / span 2;
-  background-color: #FF4949;
+  background-color: #ff4949;
   justify-self: center;
 }
 
-#superhero-database-delete:hover{
-  background-color: #FF4949;
+#superhero-database-delete:hover {
+  background-color: #ff4949;
 }
 
 #superhero-database-more-info:hover {
-  background-color: #009EEB;
+  background-color: #009eeb;
 }
 
 #superhero-database-more-info,
@@ -224,8 +224,8 @@ nav {
 
 #superhero-full-info {
   display: grid;
-  grid-template-columns: repeat(2, .5fr) .2fr .38fr 1.5fr;
-  grid-template-rows: repeat(5, .2fr);
+  grid-template-columns: repeat(2, 0.5fr) 0.2fr 0.38fr 1.5fr;
+  grid-template-rows: repeat(5, 0.2fr);
   margin: 40px 100px 60px;
 }
 
@@ -285,7 +285,7 @@ nav {
 
 #create-team-add:hover,
 #make-your-own-button:hover {
-  background-color: #13CE66;
+  background-color: #13ce66;
 }
 
 #form-container {
@@ -341,7 +341,7 @@ nav {
 }
 
 #superhero-card-div {
-  margin-top: 20%;
+  margin: 280px 100px 10px 0;
 }
 
 #app-footer {
@@ -353,4 +353,277 @@ nav {
   padding: 5px;
   border: solid 3px black;
   box-shadow: 0px -5px 10px black;
+}
+
+@media only screen and (max-width: 1200px) {
+  #home-item1 a,
+  #home-item2 a,
+  #home-item3 a {
+    font-size: 20px;
+  }
+
+  .reframe-superhero-image {
+    height: 125px;
+    width: 125px;
+  }
+
+  #superhero-card-alias {
+    font-size: 25px;
+  }
+
+  #superhero-card-real-name,
+  #superhero-card-origin {
+    font-size: 15px;
+  }
+
+  #superhero-database-more-info,
+  #superhero-database-delete {
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-button {
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 35px 40px;
+  }
+
+  #home-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home-item1,
+  #home-item2,
+  #home-item3 {
+    padding: 120px 10px;
+    margin: 0 100px;
+  }
+
+  #home-item1 a,
+  #home-item2 a,
+  #home-item3 a {
+    font-size: 25px;
+  }
+
+  #search-bar-background {
+    margin: 100px 100px 50px;
+  }
+
+  #superhero-database-full {
+    margin: 50px 100px 100px;
+  }
+
+  #form-container {
+    margin: 50px 0 50px;
+  }
+
+  #app-footer {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #home-title,
+  #superhero-database-title,
+  #create-team-title,
+  #create-superhero-title {
+    font-size: 30px;
+  }
+
+  #app-footer {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-button {
+    width: 160px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 35px 25px;
+  }
+
+  #home-item1 a,
+  #home-item2 a,
+  #home-item3 a {
+    font-size: 20px;
+    padding: 25px;
+  }
+
+  .reframe-superhero-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  #superhero-card-alias {
+    font-size: 20px;
+  }
+
+  #superhero-card-real-name,
+  #superhero-card-origin {
+    font-size: 10px;
+  }
+
+  #superhero-database-more-info,
+  #superhero-database-delete {
+    height: 35px;
+    width: 80px;
+    font-size: 10px;
+  }
+
+  #make-your-own-title {
+    font-size: 17px;
+  }
+
+  #make-your-own-form {
+    width: 220px;
+    margin-right: 0px;
+  }
+
+  #form-alias,
+  #form-image,
+  #form-real-name,
+  #form-origin,
+  #form-powers,
+  #form-description {
+    width: 200px;
+  }
+
+  #superhero-card-div {
+    width: 600px;
+  }
+
+  #app-footer {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-button {
+    width: 90px;
+    height: 30px;
+    font-size: 7px;
+    font-weight: bold;
+    margin: 18px 12px;
+  }
+
+  #home-title,
+  #superhero-database-title,
+  #create-team-title,
+  #create-superhero-title {
+    text-align: center;
+    font-size: 18px;
+    margin: 45px 25px;
+    padding: 20px;
+  }
+
+  #home-item1,
+  #home-item2,
+  #home-item3 {
+    padding: 60px 10px;
+    margin: 0 25px;
+  }
+
+  #home-item1 a,
+  #home-item2 a,
+  #home-item3 a,
+  #superhero-database-full a {
+    font-size: 7px;
+    padding: 10px;
+  }
+
+  #search-bar-background,
+  #superhero-database-full {
+    padding: 50px;
+    margin: 60px 25px 50px;
+  }
+
+  #search-bar {
+    height: 25px;
+    width: 50%;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #superhero-database-container,
+#superhero-search-results {
+  display: grid;
+  position: relative;
+  margin: 30px 5px;
+  grid-gap: 5px;
+} 
+
+  #superhero-card {
+    padding: 10px 0px;
+  }
+
+  .reframe-superhero-image {
+    height: 35px;
+    width: 35px;
+  }
+
+  #superhero-card-alias {
+    font-size: 8px;
+  }
+
+  #superhero-card-real-name,
+  #superhero-card-origin {
+    font-size: 5px;
+  }
+
+  #superhero-database-more-info,
+  #superhero-database-delete {
+    height: 5px;
+    width: 35px;
+    font-size: 4px;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  #form-container {
+    flex-direction: column;
+  }
+
+  #make-your-own-title {
+    font-size: 20px;
+  }
+  
+  #make-your-own {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px 25px 70px;
+    padding: 0px 0px 30px 0px;
+  }
+
+  #make-your-own-form {
+    width: 200px;
+    margin-left: 0;
+  }
+
+  #form-alias,
+  #form-image,
+  #form-real-name,
+  #form-origin,
+  #form-powers,
+  #form-description {
+    width: 200px;
+  }
+
+  #superhero-card-div {
+    margin: 0 80px 50px;
+    width: 200px;
+  }
+
+  #app-footer {
+    font-size: 7px;
+  }
 }

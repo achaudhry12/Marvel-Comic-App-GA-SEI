@@ -5,7 +5,7 @@ import axios from "axios";
 import Nav from "./components/Nav";
 import Homepage from "./components/Homepage";
 import SuperheroDatabase from "./components/SuperheroDatabase";
-import CreateTeam from "./components/CreateTeam";
+// import CreateTeam from "./components/CreateTeam";
 import CreateSuperhero from "./components/CreateSuperhero";
 import SuperheroFullInfo from "./components/SuperheroFullInfo";
 import SuperheroDatabaseFull from "./components/SuperheroDatabaseFull";
