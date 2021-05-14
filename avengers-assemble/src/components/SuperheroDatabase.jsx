@@ -4,9 +4,9 @@ import Superhero from "./Superhero";
 
 function SuperheroDatabase({ superheros, setToggleFetch }) {
   const [findHero, setFindHero] = useState("");
-  // const matchingHeros = superheros.filter((superhero) =>
-  //   superhero.fields.alias.toLowerCase().includes(findHero.toLowerCase())
-  // );
+  const matchingHeros = superheros.filter((superhero) =>
+    superhero.fields.alias.toLowerCase().includes(findHero.toLowerCase())
+  );
 
   return (
     <div id="superhero-database">
@@ -21,7 +21,7 @@ function SuperheroDatabase({ superheros, setToggleFetch }) {
           onChange={(e) => setFindHero(e.target.value)}
         />
         </div>
-        {/* {findHero && (
+        {findHero && (
           <div id="superhero-search-results">
             {matchingHeros.map((superhero) => (
               <div>
@@ -34,7 +34,7 @@ function SuperheroDatabase({ superheros, setToggleFetch }) {
               </div>
             ))}
           </div>
-        )} */}
+        )}
       </div>
       <h1>OR</h1>
       <div id="superhero-database-full">
